@@ -16,15 +16,16 @@
         <GroupBox Header="Пример3" HorizontalAlignment="Left" Height="105" Margin="235,58,0,0" VerticalAlignment="Top" Width="128">
             <StackPanel>
                 <TextBox x:Name="textBox2" Height="23" MaxLength="5" TextWrapping="Wrap" LostFocus="textBox2_LostFocus" LostKeyboardFocus="textBox2_LostKeyboardFocus" GotFocus="textBox2_GotFocus"/>
-                <Button Content="Button"/>
+                <Button Content="Button" Margin="0,0,-26,0"/>
             </StackPanel>
         </GroupBox>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="243,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" GotFocus="textBox2_GotFocus" LostFocus="textBox2_LostFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="64" Margin="243,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="174" GotFocus="textBox2_GotFocus" LostFocus="textBox2_LostFocus"/>
         <GroupBox Header="Исключение" HorizontalAlignment="Left" Height="105" Margin="418,58,0,0" VerticalAlignment="Top" Width="128">
-            <StackPanel>
+            <StackPanel Margin="0,0,-82,-66">
                 <TextBox x:Name="textBox3" Height="23" MaxLength="5" TextWrapping="Wrap" />
                 <Button Content="Button" Click="Button_Click"/>
             </StackPanel>
         </GroupBox>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="108,275,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>

@@ -41,13 +41,14 @@ namespace WpfApp1
 
         // Ввод тлько цифровых данных
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {            
-         /*   if (e.Key >= Key.D0 && e.Key <= Key.D9 || e.Key == Key.Back);
-            else
-            {
-                MessageBox.Show("Введите цифровые данные");
-                e.Handled = true;
-            }*/
+        {
+            /*   if (e.Key >= Key.D0 && e.Key <= Key.D9 || e.Key == Key.Back);
+               else
+               {
+                   MessageBox.Show("Введите цифровые данные");
+                   e.Handled = true;
+               }*/
+            int x;
         }
 
         private void textBox1_PreviewKeyDown(object sender, KeyEventArgs e)
